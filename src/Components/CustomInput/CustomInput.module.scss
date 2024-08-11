@@ -1,0 +1,22 @@
+.navbar-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #bbc0be;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+
+  input {
+    border: none;
+    outline: none;
+    margin-left: 0.3rem;
+    font-style: italic;
+    width: 100%;
+    height: calc(100% - 0.5rem);
+    padding-left: 0.25rem;
+
+    &::placeholder {
+      color: #bbc0be;
+      font-size: inherit;
+    }
+  }
+}

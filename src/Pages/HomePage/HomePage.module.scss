@@ -1,0 +1,11 @@
+.parent-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .parent-container {
+    display: grid;
+    grid-template-columns: 0.9fr 3.1fr;
+    height: 100%;
+  }
+}

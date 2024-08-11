@@ -1,0 +1,137 @@
+.custom-card {
+  border-radius: 8px;
+
+  margin: 0.5rem;
+  background-color: #ffffff;
+  .custom-card-heading {
+    display: flex;
+    justify-content: space-evenly;
+    .card-title {
+      margin-top: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      .title1 {
+        font-size: 6px;
+        font-weight: 500;
+        color: #686868;
+        margin-right: 4.3rem;
+      }
+      .title {
+        font-size: 9px;
+        font-weight: 500;
+        color: black;
+        margin-top: 0.1rem;
+        margin-right: 1.5rem;
+      }
+    }
+    .cardstatus {
+      margin-top: 0.5rem;
+      color: black;
+      font-size: 7px;
+      border-radius: 0.4rem;
+      height: 0.7rem;
+      width: 3.3rem;
+      font-weight: 600;
+    }
+  }
+  .custom-card-hours {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    .total-hour {
+      .total-hour-heading {
+        font-size: 7px;
+        font-weight: 200;
+        color: black;
+        margin-right: 0.8rem;
+      }
+      .hours {
+        font-size: 8px;
+        font-weight: 800;
+        color: black;
+        margin-right: 0.3rem;
+      }
+    }
+    .my-hour {
+      .my-hour-heading {
+        font-size: 7px;
+        font-weight: 200;
+        color: black;
+        margin-right: 0.8rem;
+      }
+      .myhours {
+        font-size: 8px;
+        font-weight: 800;
+        color: black;
+        margin-right: 0.3rem;
+      }
+    }
+  }
+  .progress-bar-container {
+    padding: 0.5rem;
+    .progress-bar {
+      flex-grow: 1;
+      background-color: beige;
+      border-radius: 5px;
+      height: 10px;
+      position: relative;
+      .progress {
+        background-color: #01a883;
+        height: 100%;
+        border-radius: 5px;
+      }
+    }
+    .workhour {
+      margin-right: 7.6rem;
+      font-style: italic;
+      color: grey;
+      font-size: 0.5rem;
+    }
+  }
+  .timesheet-heading {
+    font-size: 9px;
+    font-weight: 600;
+    color: black;
+    margin-left: 0.1rem;
+  }
+  .card-below-content {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 0.5rem;
+    .radio-content-display {
+      display: flex;
+      justify-content: space-evenly;
+      .radio-content-heading {
+        margin-right: 5rem;
+        padding: 0.3rem;
+        font-weight: 700;
+        font-size: 10px;
+        color: #686868;
+      }
+    }
+
+    .radio-buttons {
+      display: flex;
+      flex-direction: column; /* Arrange radio buttons in a vertical column */
+      gap: 0.4rem; /* Add space between radio buttons */
+
+      label {
+        display: flex;
+        font-size: 10px;
+        align-items: center; /* Center align the radio button and label text */
+        /* Adjust the font size of the labels */
+        cursor: pointer;
+        color: #8a8989;
+        border-bottom: 1px solid #cde2da; /* Pointer cursor on hover */
+      }
+      label:hover {
+        background-color: #b2cac3;
+      }
+
+      input[type='radio'] {
+        margin-right: 0.5rem; /* Space between radio button and label text */
+      }
+    }
+  }
+}

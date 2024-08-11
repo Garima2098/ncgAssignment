@@ -1,0 +1,15 @@
+.custom-button {
+  border: 1px solid;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  &:hover {
+    filter: brightness(90%);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

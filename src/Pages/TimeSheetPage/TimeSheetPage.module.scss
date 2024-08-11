@@ -1,0 +1,54 @@
+.timesheet-container {
+  background-color: #f8fdff;
+  box-shadow: inset 15px 0 10px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+
+  .timesheet-main-data {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    .my-timesheet {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .project-id {
+      font-size: 12px;
+      margin-top: 8px;
+      color: grey;
+      font-weight: 400;
+    }
+    .id-no {
+      color: #3a9272;
+      font-weight: 800;
+      font-size: 10px;
+      text-decoration: underline;
+      margin-top: 0.5rem;
+    }
+  }
+  .hour-tracker {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    .hour-tracker-content {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      border: 1px solid #d8dad9;
+      width: 12vw;
+      height: 8vh;
+      padding: 0.5rem 0rem 0rem 1rem;
+      background: linear-gradient(to left, #effff9, #fefeff);
+      .hour-tracker-text {
+        font-size: 11px;
+        color: grey;
+      }
+      .hour {
+        font-size: 11px;
+        color: black;
+        font-weight: 700;
+      }
+    }
+  }
+}

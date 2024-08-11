@@ -1,0 +1,52 @@
+.sidebardata-container {
+  .sidebar-projects {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    .project-heading {
+      font-weight: 700;
+      font-size: 12px;
+      color: black;
+      margin-top: 0.5rem;
+    }
+  }
+  .sidebar-buttons {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .sidebar-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    border-bottom: 1px solid #e1e0e0;
+
+    .tab {
+      cursor: pointer;
+      font-size: 0.6rem;
+      color: #aeafae;
+      border-bottom: 2px solid transparent;
+      transition: color 0.3s, border-color 0.3s;
+      padding-bottom: 0.5rem;
+      &:hover {
+        color: #aeafae;
+      }
+      .text-count {
+        border-radius: 50%;
+        color: #717271;
+        font-size: 9px;
+        font-weight: 500;
+        width: 0.8rem;
+        height: 0.8rem;
+      }
+    }
+
+    .active-tab {
+      color: #01a883;
+      border-bottom: 2px solid #01a883;
+    }
+  }
+}

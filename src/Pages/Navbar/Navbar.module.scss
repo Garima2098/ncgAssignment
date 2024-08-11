@@ -1,0 +1,38 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  background: linear-gradient(to top, #effff9, #fefeff);
+  .navbar-left {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    .menu-icon {
+      padding: 0.3rem;
+    }
+    .company-logo {
+      display: flex;
+
+      gap: 0.7rem;
+      .logo {
+        margin-top: 0.5rem;
+        height: 4vh;
+      }
+      .company-name {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-top: 0.6rem;
+      }
+    }
+  }
+  .navbar-right {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+    .navbar-profile,
+    .navbar-notification {
+      margin-top: 0.5rem;
+    }
+  }
+}
